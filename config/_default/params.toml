@@ -22,11 +22,11 @@ day_night = true
 #   Latest font sets (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in font sets in `themes/academic/data/fonts/`
 #   Browse user installed font sets in `data/fonts/`
-font = ""
+font = "my_font_set"
 
 # Choose a font size.
 # Sizes: XS (extra small), S (small), M (medium), L (large - DEFAULT), XL (extra large)
-font_size = "S"
+font_size = "M"
 
 ############################
 ## Basic Info
@@ -59,7 +59,11 @@ description = ""
 highlight = true
 highlight_languages = ["bash, css, elixir, erlang, excel, github, go, java, javascript, ruby, shell"]  # Add support for highlighting additional languages
 # highlight_style = "github"  # For supported styles, see https://cdnjs.com/libraries/highlight.js/
-highlight_style = "tomorrow-night-blue"
+# highlight_style = "ir-black"
+# highlight_style = "night-owl"
+# highlight_style = "shades-of-purple"
+# highlight_style = "tomorrow-night-bright"
+highlight_style = "vs2015"
 
 # Enable LaTeX math rendering? true/false
 #   If false, you can enable math on a per page basis as needed.

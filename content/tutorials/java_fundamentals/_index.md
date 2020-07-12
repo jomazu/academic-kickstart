@@ -20,6 +20,7 @@ menu:
     name: Overview
     weight: 4
 ---
+🕮 [**Table of Contents**]({{< ref "/toc.md" >}}) 
 
 ![Java logo](https://res.cloudinary.com/jomazu/image/upload/w_0.4,c_scale/v1574364405/jomazu/logos/java_logo.png)
 

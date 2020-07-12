@@ -1,6 +1,6 @@
 ---
 title: Code Examples
-linktitle: Code Examples
+linktitle: 💻 Code Examples
 toc: true
 type: docs
 date: 2019-11-21T12:57:49-07:00
@@ -15,6 +15,7 @@ menu:
 weight: 2
 ---
 
+🕮 [**Table of Contents**]({{< ref "/toc.md" >}})
 
 ## Tip Calculator
 
