@@ -24,15 +24,28 @@ menu:
 
 ![Gopher logo](https://res.cloudinary.com/jomazu/image/upload/w_0.20,c_scale/v1593048779/jomazu/logos/go-logo-blue.svg)
 
+---
+<br>
+
 Originating as an experiment by Google engineers in 2007, [Go](https://golang.org/) (Golang) was officially announced in November 2009 as a free, open source, and general purpose programming language to make programmers more productive. Go is a compiled language, meaning the high-level source (src) code written by programmers is translated to a lower-level language, sometimes referred to as binary (bin) or machine code.
 
-### The brilliant minds behind Go's creation
+---
+<br>
+
+## The brilliant minds behind Go's creation
+
+<br>
 
 * [Ken Thompson](http://amturing.acm.org/award_winners/thompson_4588371.cfm) (B, C, Unix, UTF-8)
 * [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) (Plan 9, Unix, UTF-8)
 * [Robert Griesemer](https://channel9.msdn.com/Events/Speakers/Robert-Griesemer) (Google's V8 JS Engine, Sawzall, Java HotSpot VM, Strongtalk)
 
-### Go's key points
+<br>
+
+---
+<br>
+
+## Go's key points
 
 * Compact yet expressive
 * Statically typed
@@ -46,7 +59,10 @@ Originating as an experiment by Google engineers in 2007, [Go](https://golang.or
 
 So, why should you learn Golang? In my view, it is built with the future of programming in mind, not to mention it is backed by Google! But most of all, because it is a blazing fast, fun, and productive open-source programming language!
 
-### About this Site
+---
+<br>
+
+## About this Site
 This site runs on [Hugo](https://gohugo.io/) - a fast, flexible, and popular open source static-site generator (SSG) written in Go.
 
 Hugo
@@ -55,3 +71,7 @@ Hugo
 Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates, and renders them into a full HTML website.
 
 Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
+
+<br>
+
+---

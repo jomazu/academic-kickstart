@@ -3,8 +3,8 @@ title: Table of Contents
 linktitle: Table of Contents
 toc: true
 type: docs
-date: 2019-11-21T12:57:49-07:00
-lastmod: 2020-06-28T12:57:49-07:00
+date: "2019-11-21"
+lastmod: "2020-06-28"
 draft: false
 menu:
   java_fundamentals:
@@ -15,16 +15,23 @@ menu:
 weight: 1
 ---
 
+---
+<br>
+
 ## Helpful Links
 
-- [Eclipse Documentation](https://help.eclipse.org/2020-06/index.jsp)  
+- [IDE Documentation (Eclipse)](https://help.eclipse.org/2020-06/index.jsp)  
 *Be sure to Read the following (2) Sections:*
   - Workbench User Guide
   - Java development user guide
-- [JDK 13 Documentation - Oracle](https://docs.oracle.com/en/java/javase/13/)
-- [How to start learning Java - GeeksforGeeks](https://www.geeksforgeeks.org/java-how-to-start-learning-java/)
-- [Learn Java - JavaTpoint](https://www.javatpoint.com/java-tutorial)
+- [JDK 13 Documentation (Oracle)](https://docs.oracle.com/en/java/javase/13/)
+- [How to start learning Java (Geeks-for-Geeks)](https://www.geeksforgeeks.org/java-how-to-start-learning-java/)
+- [Learn Java (Java-T-Point)](https://www.javatpoint.com/java-tutorial)
 
+<br>
+
+---
+<br>
 
 ## Chapters
 
@@ -49,3 +56,7 @@ weight: 1
   * Nested `For` Loops
   * File Processing w/Exception Handling & Keyboard Input
   * Buffered File Reader w/Try Catch and Finally
+
+<br>
+
+---

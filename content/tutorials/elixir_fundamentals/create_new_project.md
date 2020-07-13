@@ -3,8 +3,8 @@ title: Create a New Project
 linktitle: Create a New Project
 toc: true
 type: docs
-date: 2020-07-08T12:57:49-07:00
-lastmod: 2020-07-08T12:57:49-07:00
+date: "2020-07-08"
+lastmod: "2020-07-08"
 draft: false
 menu:
   elixir_fundamentals:
@@ -14,7 +14,8 @@ menu:
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
 ---
-
+---
+<br>
 
 ## New Project
 Create a new Elixir project using.
@@ -40,3 +41,4 @@ Some helpful options and commands to use from the command prompt:
 * `iex -h`
 * `elixir -h`
 
+---

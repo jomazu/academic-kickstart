@@ -23,9 +23,10 @@ menu:
 
 Most computer Operating Systems (OS) provide a graphical user interface (GUI or "gooey") to interact with systems through point-and-click mouse movements. However, using the command-line interface (CLI) provides a more concise and powerful means to control a program or OS. Moreover, using programs with a CLI are usually easier to automate via scripting, which is a necessity for any serious developer, programmer, software engineer, or computer scientist.
 
-*Note: the words directory and folder are used synonymously.*
+*Note: the words **directory** and **folder** are used synonymously.*
 
 ---
+<br>
 
 `pwd`  
 **P**rint the full filename of the current **w**orking **d**irectory.
@@ -61,6 +62,7 @@ The **c**hange **d**irectory and **/** (forward slash) combination will return t
 ```ini
 $ cd /
 ```
+<br>
 
 ## Creating Directories
 
@@ -83,6 +85,7 @@ $ mkdir dev_projects/ex_1 dev_projects/ex_2
 $ ls dev_projects/
 ex_1/  ex_2/
 ```
+<br>
 
 ## Creating Files
 
@@ -118,6 +121,7 @@ total 4.0K
 # The leading dash (-) means this is a file.
 -rw-rw-r-- 1 user user 19 Feb 19 06:41 example.py
 ```
+<br>
 
 ## Removing Files
 
@@ -139,6 +143,7 @@ $ rm note_1 note_2
 $ ls
 note_3
 ```
+<br>
 
 ## Removing Directories
 
@@ -167,8 +172,12 @@ $ rm -rf ex_1/
 $ ls
 ex_2/
 ```
+<br>
 
+---
 ## **Summary**  
+---
+<br>
 
 :heavy_check_mark: `ls -lSh` - list a directory's contents, sorted by file size.  
 

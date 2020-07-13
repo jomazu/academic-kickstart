@@ -3,8 +3,8 @@ title: Code Examples
 linktitle: 💻 Code Examples
 toc: true
 type: docs
-date: 2019-11-21T12:57:49-07:00
-lastmod: 2020-07-05T12:57:49-07:00
+date: "2019-11-21"
+lastmod: "2020-07-05"
 draft: false
 menu:
   java_fundamentals:
@@ -15,7 +15,11 @@ menu:
 weight: 2
 ---
 
-🕮 [**Table of Contents**]({{< ref "/toc.md" >}})
+---
+🕮 [**TOC**]({{< ref "/toc.md" >}})
+
+<br>
+
 
 ## Tip Calculator
 
@@ -46,10 +50,15 @@ public class Main {
 
 ```
 
-```terminal
+```ini
 > Total meal price per individual: $25.6
 ```
+
+<br>
+
 ---
+<br>
+
 ## Salary Calculator
 
 ```java
@@ -82,10 +91,14 @@ public class Main {
 
 ```
 
-```terminal
+```ini
 > Your annual salary is $30240.0
 ```
+<br>
+
 ---
+<br>
+
 ## Triangle Instance
 
 ```java
@@ -118,6 +131,7 @@ public class Triangle {
     }
 }
 ```
+<br>
 
 ```java
 public class Main {
@@ -141,11 +155,13 @@ public class Main {
 }
 ```
 
-```terminal
+```ini
 > The area of triangle 'A' is: 60.0
 > The area of triangle 'B' is: 3.897
 > The length of side three (non-static variable) for triangle 'A' is: 17.0
 > The base (non-static variable) for triangle 'B' is: 3.0
 > 'NumOfSides' (static variable) = 3
 ```
+<br>
+
 ---

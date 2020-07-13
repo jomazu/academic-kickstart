@@ -3,8 +3,8 @@ title: Variables and Data Types
 linktitle: 📚 01 Data Types
 toc: true
 type: docs
-date: 2020-07-12
-lastmod: 2020-07-12
+date: "2020-07-12"
+lastmod: "2020-07-12"
 draft: false
 menu:
   java_fundamentals:
@@ -15,8 +15,12 @@ menu:
 weight: 3
 ---
 
-🕮 [**Table of Contents**]({{< ref "/toc.md" >}})
+---
+🕮 [**TOC**]({{< ref "/toc.md" >}})
 
-## Helpful Links
+<br>
 
-- [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+
+## Useful Links
+
+- [Primitive Data Types (Oracle Documentation)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)

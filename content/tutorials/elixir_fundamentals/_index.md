@@ -6,8 +6,8 @@ weight: 2
 
 # Page metadata.
 title: Overview
-date: "2019-10-01T00:00:00Z"
-lastmod: "2020-07-07T00:00:00Z"
+date: "2019-10-01"
+lastmod: "2020-07-07"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -22,6 +22,9 @@ menu:
 ---
 
 ![Erlang logo](https://res.cloudinary.com/jomazu/image/upload/w_0.20,c_scale/v1571541788/jomazu/logos/Erlang_logo.png)
+
+---
+<br>
 
 [Erlang](https://www.erlang.org/) is a general-purpose development platform for building scalable and reliable systems that constantly provide service with little or no downtime.
 
@@ -38,6 +41,9 @@ As mentioned, Erlang was specifically created to support the development of high
 - `Live update` - push new versions of software without restarting any servers.
 
 Erlang provides the tools to address these challenges - that's what it was built for. 
+
+---
+<br>
 
 ## Erlang Concurrency
 At the heart and soul of Erlang systems is concurrency, as illustrated in figure 1.1.
@@ -64,7 +70,10 @@ Concurrency promotes:
 ![Erlang Concurrency](https://res.cloudinary.com/jomazu/image/upload/w_0.30,c_scale/v1570048600/jomazu/BEAM_concurrency.png)
 
 **Figure 1.1** Concurrency in the Erlang VM
-  
+
+---
+<br>
+
 ## Erlang - Server-Side Systems
 Erlang can be used in various applications and systems, such as desktop applications and embedded environments. However, its sweet spot lies in **server-side systems** - systems that run on one or more servers and must serve many simultaneous clients. It is an entire system that does more than handle requests, run various background jobs, and manage server-wide in-memory state, as illustrated in figure 1.2.
 
@@ -74,6 +83,11 @@ A server-side system is often distributed on multiple machines that collaborate 
 
 **Figure 1.2** Server-side system
 
+---
+<br>
+
 ## References
 
 Juric, S. (2019). Elixir in action (2nd ed.). Shelter Island, NY: Manning Publications.
+
+---

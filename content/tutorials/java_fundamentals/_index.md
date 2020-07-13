@@ -6,8 +6,8 @@ weight: 4
 
 # Page metadata.
 title: Overview
-date: 2019-11-21T12:57:49-07:00
-lastmod: 2020-07-05T12:57:49-07:00
+date: "2019-11-21"
+lastmod: "2020-07-05"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -20,14 +20,29 @@ menu:
     name: Overview
     weight: 4
 ---
-🕮 [**Table of Contents**]({{< ref "/toc.md" >}}) 
+🕮 [**TOC**]({{< ref "/toc.md" >}}) 
 
 ![Java logo](https://res.cloudinary.com/jomazu/image/upload/w_0.4,c_scale/v1574364405/jomazu/logos/java_logo.png)
 
+<br>
+
+---
+<br>
+
 The Java Programming Language is a gerneral-purpose, concurrent, strongly-typed, class-based object-oriented language. It is normally compiled to the bytecode instruction set and binary format defined in the Java Virtual Machine Specification.
+
+<br>
+
+---
+<br>
 
 ## What is a Computer Program?
 A Computer Program is a List of Instructions given to a computer on how to perform a given task.
+
+<br>
+
+---
+<br>
 
 ## What are Methods?
 [Methods](https://www.geeksforgeeks.org/methods-in-java/) are Named Blocks of Instructions. For instance, a List of Instructions for changing a tire can be broken down into four (4) Named Blocks of Intructions (Methods):
@@ -53,6 +68,11 @@ class Example{
 }  
 ```
 
+<br>
+
+---
+<br>
+
 ## What is a Class?
 A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods. A Class is a user-defined blueprint that has a set of attributes and behaviors  that define the object they are supposed to represent.
 
@@ -63,6 +83,11 @@ A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a
   * The constructor may or may not take inputs. The name of the constructor is always the same name as the Class.
   * The `this` keyword and the `dot` operator is used to access the attribute variable for an object you are constructing. The `this` keyword helps Java make a distinction between the attribute variable and the parameter variable.
   * A constructor is called like any other function. The only difference is that because you are creating a new instance, you have to use the `new` keyword.
+
+<br>
+
+---
+<br>
 
 ## Instance Methods vs. Class Methods
 
@@ -79,6 +104,11 @@ A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a
 > Since the `.charAt()` method is accessed through a **String instance**, it is an **instance** (non-static) method instead of a **class** (static) method.
 
 * **Class Methods** are referred to as (static) methods because you do not need an instance to use them.
+
+<br>
+
+---
+<br>
 
 ## What is a Package?
 A [Package](https://docs.oracle.com/javase/tutorial/java/concepts/package.html) is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer. You might keep HTML pages in one folder, images in another, and scripts or applications in yet another. Because software written in the Java programming language can be composed of hundreds or thousands of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages.
