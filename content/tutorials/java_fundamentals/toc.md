@@ -20,6 +20,7 @@ weight: 1
 
 ## Helpful Links
 
+- [The Java Tutorials Documentation (Oracle)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 - [IDE Documentation (Eclipse)](https://help.eclipse.org/2020-06/index.jsp)  
 *Be sure to Read the following (2) Sections:*
   - Workbench User Guide
