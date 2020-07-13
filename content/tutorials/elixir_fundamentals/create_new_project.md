@@ -41,4 +41,3 @@ Some helpful options and commands to use from the command prompt:
 * `iex -h`
 * `elixir -h`
 
----

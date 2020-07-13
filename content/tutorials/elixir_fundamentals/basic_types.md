@@ -25,6 +25,8 @@ To exit IEx, type either:
 * `Ctrl + c` (twice)
 * `Ctrl + \` (once)
 
+<br>
+
 ---
 <br>
 
@@ -57,6 +59,9 @@ iex(2)> runtime_info :memory
   * Interpolation
   * Strings are Binary
 * Charlist
+
+<br>
+
 ---
 <br>
 
@@ -81,6 +86,8 @@ Converting unchecked user data to an atom can expose your system to a [Denial-of
 
 This is how the attack works: a malicious actor causes your system to repeatedly create unique atoms until it consumes all of the available resources on your machine, causing it to crash. It is not a security flaw or "break-in", but can be abused to cause your system to crash.
 
+<br>
+
 ---
 <br>
 
@@ -88,6 +95,8 @@ This is how the attack works: a malicious actor causes your system to repeatedly
 The booleans `true` and `false` are implemented as special reserved atoms.
 
 Elixir allows you to skip the leading `:` for the atoms `true` and `false`.
+
+<br>
 
 ---
 <br>
@@ -98,6 +107,8 @@ Nil represents the absence of a value. Nil is implemented as a special reserved 
 In evaluations, `nil` behaves like `false`.
 
 Elixir allows you to skip the leading `:` for the atom `nil`.
+
+<br>
 
 ---
 <br>
@@ -138,6 +149,8 @@ This is expected with floating point math. Refer to the following links:
 If you need to represent fixed decimal values for something like money, using a Float may not be the most appropriate choice. For example, it may work better to use an integer that represents cents (instead of whole dollars).
 
 Another option is to use a package called [Decimal](https://hex.pm/packages/decimal) that provides arbitrary precision.
+
+<br>
 
 ---
 <br>
@@ -221,6 +234,8 @@ iex(1)> is_binary("A string")
 ```
 In Erlang, functions often expect a `charlist`.
 
+<br>
+
 ---
 <br>
 
@@ -259,4 +274,3 @@ There are **no "objects"** in Elixir. There is only "data" and "functions". Modu
 
 By convention, when you want to perform some function on a piece of data, you use the type's module for doing that. This is particularly the case for Atom, Integer, Float, and String.
 
----

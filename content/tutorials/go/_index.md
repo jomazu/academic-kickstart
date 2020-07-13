@@ -24,10 +24,11 @@ menu:
 
 ![Gopher logo](https://res.cloudinary.com/jomazu/image/upload/w_0.20,c_scale/v1593048779/jomazu/logos/go-logo-blue.svg)
 
----
 <br>
 
 Originating as an experiment by Google engineers in 2007, [Go](https://golang.org/) (Golang) was officially announced in November 2009 as a free, open source, and general purpose programming language to make programmers more productive. Go is a compiled language, meaning the high-level source (src) code written by programmers is translated to a lower-level language, sometimes referred to as binary (bin) or machine code.
+
+<br>
 
 ---
 <br>
@@ -59,6 +60,8 @@ Originating as an experiment by Google engineers in 2007, [Go](https://golang.or
 
 So, why should you learn Golang? In my view, it is built with the future of programming in mind, not to mention it is backed by Google! But most of all, because it is a blazing fast, fun, and productive open-source programming language!
 
+<br>
+
 ---
 <br>
 
@@ -72,6 +75,3 @@ Hugo is a static HTML and CSS website generator written in Go. It is optimized f
 
 Hugo relies on Markdown files with front matter for metadata, and you can run Hugo from any directory.
 
-<br>
-
----
