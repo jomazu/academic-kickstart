@@ -39,7 +39,13 @@ The Java Programming Language is a gerneral-purpose, concurrent, strongly-typed,
 <br>
 
 ## What is a Computer Program?
-A Computer Program is a List of Instructions given to a computer on how to perform a given task.
+A computer program is a sequence of instructions (called programming statements) that execute one after another.
+
+**Sequential flow** is the most common and straight-forward, where **programming statements** are executed in the order that they are written - from top to bottom in a sequential manner, as illustrated in **Figure 1**.
+
+| ![Sequential Flow](https://res.cloudinary.com/jomazu/image/upload/w_0.60,c_scale/v1594614096/jomazu/flow_sequential.gif)     |
+| ----------- |
+| **Figure 1** - Sequential Flow   |
 
 <br>
 
