@@ -84,6 +84,19 @@ class Example{
 ## What is a Class?
 A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods. A Class is a user-defined blueprint that has a set of attributes and behaviors  that define the object they are supposed to represent.
 
+<br>
+
+Example: (**Class**) and (**Object**)
+
+| Class Vehicle        | Object Corvette        |
+| -------------------- | --------------------   |
+| Length               | Length = 16 ft         |
+| Passenger Capacity   | Passenger Capacity = 4 |
+| Top Speed            | Top Speed = 205 mph    |
+| Color                | Color = red            |
+
+<br>
+
 * **Attributes** (Properties) are variables that will hold a particular value within a class.
 * **Behaviors** (Methods) are functions that are related to a class.
 * **Instance** is an object created from a class blueprint.
