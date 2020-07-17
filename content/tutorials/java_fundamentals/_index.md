@@ -82,7 +82,7 @@ class Example{
 <br>
 
 ## What is a Class?
-A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods. A Class is a user-defined blueprint that has a set of attributes and behaviors  that define the object they are supposed to represent.
+A [Class](https://docs.oracle.com/javase/tutorial/java/concepts/class.html) is a place where you define your Methods, it is a container of Methods. A Class is a user-defined blueprint (template) that has a set of attributes (variables) and behaviors (methods) that define the object they are supposed to represent. Variables or Methods that are part of the Class are referred to as *Members* or *Class Members*.
 
 <br>
 
@@ -97,9 +97,10 @@ Example: (**Class**) and (**Object**)
 
 <br>
 
-* **Attributes** (Properties) are variables that will hold a particular value within a class.
-* **Behaviors** (Methods) are functions that are related to a class.
-* **Instance** is an object created from a class blueprint.
+* **Objects** - are specific instances of a Class.
+* **Attributes** (Properties) - are variables that will hold a particular value within a Class.
+* **Behaviors** (Methods) - are functions that are related to a class.
+* **Instance** - when an object is created from a Class. Variables that are part of the Class definition are referred to as *Instance Variables*.
 * **Constructor** is a special method (i.e. function) or behavior inside every class that creates and initializes instances.
   * The constructor may or may not take inputs. The name of the constructor is always the same name as the Class.
   * The `this` keyword and the `dot` operator is used to access the attribute variable for an object you are constructing. The `this` keyword helps Java make a distinction between the attribute variable and the parameter variable.
