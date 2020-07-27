@@ -24,6 +24,11 @@ menu:
 ---
 <br>
 
+## Useful Links
+* [APIs 101](https://www.youtube.com/watch?v=cpRcK4GS068&list=PLcgRuP1JhcBP8Kh0MC53GH_pxqfOhTVLa)
+* [API Guide](https://www.moesif.com/blog/api-guide/) - Best practices and API tools
+
+
 ## API
 **A**pplication **P**rogramming **I**nterface
 
@@ -34,4 +39,4 @@ menu:
 * A standard / set of guidelines by which you can structure and create APIs
 * REST APIs have identifiable properties...
   * They make use of Resource-based URLs
-  
+
