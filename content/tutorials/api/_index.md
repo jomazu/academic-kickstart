@@ -69,7 +69,10 @@ The guiding architectural constraints required for an API to be considered RESTf
 5. Uniform Design
 6. Code on Demand
 
-REST APIs sit on top of web technology, like a hat. Similar to the web, a client (your program) makes a request to a server. You will likely be using some sort of library to create the request to the server. The [protocol](https://developer.mozilla.org/en-US/docs/Glossary/protocol) used is HTTP and it's [stateless](https://en.wikipedia.org/wiki/Stateless_protocol). The server won't remember anything about the particular client. If you want to maintain state like your login credentials, you must send it with each and every request - you will do this using [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
+## Client-Server Architecture and Statelessness
+REST APIs sit on top of web technology, like a hat. Similar to the web, a client (your program) makes a request to a server for a resource (i.e. an object). You will likely be using some sort of library to create the request to the server. The [protocol](https://developer.mozilla.org/en-US/docs/Glossary/protocol) used is HTTP and it's [stateless](https://en.wikipedia.org/wiki/Stateless_protocol). The server won't remember anything about the particular client. If you want to maintain state like your login credentials, you must send it with each and every request - you will do this using [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
+
+## 
 
 ## Glossary of Terms
 
@@ -79,3 +82,4 @@ REST APIs sit on top of web technology, like a hat. Similar to the web, a client
 * [TCP](https://condor.depaul.edu/jkristof/technotes/tcp.html) - Transmission Control Protocol
 * [TLS](https://tls13.ulfheim.net/) - Transport Layer Security
 * [UDP](https://hpbn.co/building-blocks-of-udp/) - User Datagram Protocol
+* [URL and URI](https://www.baeldung.com/java-url-vs-uri) - Uniform Resource Locator (URL) and Uniform Resource Identifier (URI)
