@@ -27,6 +27,7 @@ menu:
 ## Useful Links
 * [APIs 101](https://www.youtube.com/watch?v=cpRcK4GS068&list=PLcgRuP1JhcBP8Kh0MC53GH_pxqfOhTVLa)
 * [API Guide](https://www.moesif.com/blog/api-guide/) - Best practices and API tools
+* [REST API Tutorial](https://restfulapi.net/)
 
 
 ## API
@@ -42,7 +43,7 @@ menu:
   * Patient record
   * Location represented as a pin on a map
   * The execution of a financial transaction
-  
+
 * It's a technical contract
   * Like a legal contract, it represents an understanding by all parties involved
   * The contract also represents agreed-upon standards
@@ -58,3 +59,23 @@ menu:
 * REST APIs have identifiable properties...
   * They make use of Resource-based URLs
 
+---
+The guiding architectural constraints required for an API to be considered RESTful:
+
+1. Client-Server Architecture
+2. Statelessness
+3. Layered System
+4. Cacheability
+5. Uniform Design
+6. Code on Demand
+
+REST APIs sit on top of web technology, like a hat. Similar to the web, a client (your program) makes a request to a server. You will likely be using some sort of library to create the request to the server. The [protocol](https://developer.mozilla.org/en-US/docs/Glossary/protocol) used is HTTP and it's [stateless](https://en.wikipedia.org/wiki/Stateless_protocol). The server won't remember anything about the particular client. If you want to maintain state like your login credentials, you must send it with each and every request - you will do this using [Headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers).
+
+## Glossary of Terms
+
+* [DNS](https://www.cloudflare.com/learning/dns/what-is-dns/) - Domain Name System
+* [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview) - HyperText Transfer Protocol
+* [IP](https://www.cloudflare.com/learning/network-layer/internet-protocol/#:~:text=The%20Internet%20Protocol%20(IP)%20is%20a%20protocol%2C%20or%20set,into%20smaller%20pieces%2C%20called%20packets.&text=The%20most%20common%20transport%20protocols%20are%20TCP%20and%20UDP.) - Internet Protocol
+* [TCP](https://condor.depaul.edu/jkristof/technotes/tcp.html) - Transmission Control Protocol
+* [TLS](https://tls13.ulfheim.net/) - Transport Layer Security
+* [UDP](https://hpbn.co/building-blocks-of-udp/) - User Datagram Protocol
