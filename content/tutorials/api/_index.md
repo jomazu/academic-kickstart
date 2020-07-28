@@ -30,7 +30,25 @@ menu:
 
 
 ## API
-**A**pplication **P**rogramming **I**nterface
+**A**pplication **P**rogramming **I**nterface  
+
+*An API is a contract between application (app) and service.*
+
+* Consumer vs Provider
+  * A software app is often the **consumer** of an API.
+  * When an API is offered over a network for consumption, the service that offers the API is said to be the **provider** or "API provider."
+
+* The app may outsource requirements for data or functionality through an API by **calling** that API. To illustrate...
+  * Patient record
+  * Location represented as a pin on a map
+  * The execution of a financial transaction
+  
+* It's a technical contract
+  * Like a legal contract, it represents an understanding by all parties involved
+  * The contract also represents agreed-upon standards
+
+
+
 
 ## REST
 **RE**presentational **S**tate **T**ransfer
