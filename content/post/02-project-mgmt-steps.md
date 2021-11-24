@@ -54,7 +54,7 @@ The definition of a project is something complicated that you haven't done befor
 #### PLANNING Phase: steps 1-8
 1. **Define the project** - unclear definitions are a very common reason for project failure.  
 2. **List the tasks** - break the project down into pieces. In this step, you are breaking down something you've never done before into a series of tasks that you have done before.  
-3. **Estimate times and costs for each task**  
+3. **Estimate times and costs for each task**.  
 4. **Add up all of the time and costs** - this step can be tricky, because some tasks are happening at the same time (in parallel). So, you need to create a *critical path diagram* that will allow you to see how long the project's going to take overall.  
 5. **Shorten your project plan** - when you add up the tasks, and you find that the time comes out as being too long (i.e. unacceptable), you need to shorten the plan until it becomes acceptable.  
 6. **Draw a Gantt chart** - using the acceptable length plan from step five, draw a Gantt chart. It uses a series of horizontal lines to show the amount of work completed in certain periods of time, in relation to the amount planned for those periods.  
